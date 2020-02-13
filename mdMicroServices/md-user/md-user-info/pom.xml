@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>md-user-info</artifactId>
-
+    <version>${revision}</version>
     <name>md-user-info</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
