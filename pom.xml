@@ -30,6 +30,10 @@
 
   </properties>
 
+
+  <!--不适用父子依赖 仅仅使用依赖管理的原因是:没必要强制项目必须有某几个依赖。
+      而且纯正的公共依赖也不是很多
+  -->
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -43,8 +47,13 @@
     </dependencies>
   </dependencyManagement>
 
-
-
+<dependencies>
+  <dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>1.2.56</version>
+  </dependency>
+</dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
