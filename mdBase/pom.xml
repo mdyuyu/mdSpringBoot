@@ -6,12 +6,13 @@
   <parent>
     <groupId>org.example</groupId>
     <artifactId>mdSpringBoot</artifactId>
-    <version>${revision}</version>
+    <version>1.0-SNAPSHOT</version>
   </parent>
 
   <groupId>org.example</groupId>
   <artifactId>mdBase</artifactId>
   <version>${revision}</version>
+
   <name>mdBase</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
