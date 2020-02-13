@@ -21,6 +21,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+
+    <!--所有项目的版本号-->
+    <revision>1.0-SNAPSHOT</revision>
+    <projectVersion>1.0-SNAPSHOT</projectVersion>
+
   </properties>
 
   <dependencyManagement>
