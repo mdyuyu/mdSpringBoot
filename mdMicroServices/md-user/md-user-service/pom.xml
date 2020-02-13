@@ -22,6 +22,9 @@
     </properties>
 
     <dependencies>
+
+
+        <!--1 标准web项目-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -37,7 +40,9 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!--1 标准web项目-->
 
+        <!--其他模块依赖-->
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>md-user-info</artifactId>
