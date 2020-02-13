@@ -24,6 +24,7 @@
 
     <!--所有项目的版本号-->
     <revision>1.0-SNAPSHOT</revision>
+    <!--项目引用的版本号-->
     <projectVersion>1.0-SNAPSHOT</projectVersion>
 
   </properties>
