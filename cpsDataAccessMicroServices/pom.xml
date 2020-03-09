@@ -3,17 +3,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
+
   <parent>
-    <groupId>org.example</groupId>
-    <artifactId>mdSpringBoot</artifactId>
+    <groupId>com.tencent</groupId>
+    <artifactId>cps-data-access</artifactId>
     <version>${revision}</version>
   </parent>
 
-  <groupId>org.example</groupId>
-  <artifactId>mdBase</artifactId>
+  <groupId>com.tencent</groupId>
   <version>${revision}</version>
+  <artifactId>cpsDataAccessMicroServices</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>cps-data-access-core</module>
+      <module>data-access-youzan</module>
+      <module>data-access-weipinhui</module>
+        <module>data-access-yz-wph</module>
+    </modules>
 
-  <name>mdBase</name>
+    <name>cpsDataAccessMicroServices</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -33,6 +42,5 @@
   </dependencies>
 
   <build>
-
   </build>
 </project>
