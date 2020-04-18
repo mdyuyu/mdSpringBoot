@@ -114,6 +114,11 @@
 
 
 
+    <!--pluginManagement
+        作用在于规定版本;子项目不会引人。
+        所以:对于所有项目都需要使用的spring-boot-maven-plugin
+        需要在根项目显示引用
+    -->
     <pluginManagement>
       <plugins>
         <plugin>
@@ -129,6 +134,27 @@
         </plugin>
       </plugins>
     </pluginManagement>
+
+    <!--显示规定所有子项目使用此插件
+        最基础作用:1 重构重新打包,生成可执行jar.
+                  2 允许打包本地jar
+    -->
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>repackage</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <includeSystemScope>true</includeSystemScope>
+        </configuration>
+      </plugin>
+    </plugins>
 
   </build>
 </project>
