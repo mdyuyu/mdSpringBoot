@@ -4,17 +4,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.tencent</groupId>
-  <artifactId>cps-data-access</artifactId>
+  <groupId>org.example</groupId>
+  <artifactId>mdSpringBoot</artifactId>
   <packaging>pom</packaging>
   <version>${revision}</version>
 
     <modules>
-        <module>cpsDataAccessBase</module>
-        <module>cpsDataAccessMicroServices</module>
+        <module>mdBase</module>
+        <module>mdMicroServices</module>
     </modules>
 
-    <name>cps-data-access</name>
+    <name>mdSpringBoot</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

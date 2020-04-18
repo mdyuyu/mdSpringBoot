@@ -1,4 +1,4 @@
-package com.tencent;
+package org.example;
 
 /**
  * Hello world!
